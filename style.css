@@ -1,0 +1,25 @@
+body{
+    background-color: #6855aa;
+    font-size: 16px;
+    color: #a0af50;
+}
+header h1{
+    display: inline;
+    line-height: 45px;
+    margin: 0px;
+    font-size: 2rem;
+}
+nav{
+    display:  inline-block;
+    list-style: none;
+    float: right;
+    margin-bottom: 0px;
+    margin-left: 0px;
+}
+ul{
+    display: inline;
+}
+li{
+    display: inline;
+    padding: 1rem;
+}
