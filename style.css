@@ -1,20 +1,21 @@
 body{
-    background-color: #6855aa;
+    background-color: rgb(0, 64, 128);
     font-size: 16px;
-    color: #a0af50;
+    color: white;
 }
 header h1{
     display: inline;
     line-height: 45px;
     margin: 0px;
     font-size: 2rem;
+    margin-left: 3rem;
 }
 nav{
-    display:  inline-block;
     list-style: none;
     float: right;
     margin-bottom: 0px;
     margin-left: 0px;
+    margin-right: 3rem;
 }
 ul{
     display: inline;
