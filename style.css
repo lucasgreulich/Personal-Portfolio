@@ -7,14 +7,34 @@ body{
 }
 header{
     margin-top: 2rem;
+    margin-bottom: 5rem;
+    display: block;
+    background-image: url(garrett-sears-rXVFCA3fQ4I-unsplash.jpg);
+    height: 11rem;
+    width: auto;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:75% 60%;
+    
+    
 }
 header h1{
-    display: inline;
+    display: inline-block;
     line-height: 45px;
     margin: 0px;
-    font-size: 2rem;
     margin-left: 3rem;
-    font-size: 5rem;
+    margin-top: .85rem;
+    font-size: 8rem;
+    border: thick double rgba(170,122, 57,1);
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+    padding-left: .5rem;
+    padding-right: .5rem;
+    position: absolute;
+    
+    
+    
 }
 nav{
     list-style: none;
@@ -22,12 +42,14 @@ nav{
     margin-bottom: 0px;
     margin-left: 0px;
     margin-right: 3rem;
+    margin-top: 4rem ;
     font-size: 2rem;
+    
 }
 ul{
-    display: inline;
+    display: inline-block;
 }
 li{
-    display: inline;
+    display: inline-block;
     padding: 1rem;
 }
