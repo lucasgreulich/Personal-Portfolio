@@ -72,6 +72,13 @@ li{
     background-position: right;
    
 }
+#about-me:hover{
+    height: 25rem;
+    width: 75%;
+    margin: auto;
+    background-size:auto 25rem ;
+    font-size: 1rem;
+}
 #about-me p{
     color: black;
     height: 15rem;
@@ -81,29 +88,63 @@ li{
     color:  rgba(128, 83, 21,1);
     padding-left: 1rem;
 }
+#about-me h1{
+    padding-left: 1rem;
+}
 
 /* projects section*/
 
 #projects{
-    height: 10rem;
-    width: 49%;
-    display: inline-block;
     text-align: center;
-    border: thick double rgba(170,122, 57,1);
     margin-top: 1rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 5rem 15rem;
+    column-gap: 1rem;
+    
 }
+#projects h1{
+    text-align: center;
+    grid-column-start: 2;
+    grid-column-end: 2;
+    
+}
+.project-containers{
+    height: 15rem;
+    width: auto;
+    background-color: black;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    border: thick double rgba(170,122, 57,1);
+   }
 
 /*skills section*/
 
 #skills{
-    height: 10rem;
-    width: 49%;
-    display: inline-block;
-    float: right;
     text-align: center;
-    border: thick double rgba(170,122, 57,1);
     margin-top: 1rem;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 5rem 15rem;
+    column-gap: 1rem;
 }
+#skills h1{
+    text-align: center;
+    grid-column-start: 2;
+    grid-column-end: 2;
+    
+}
+.skills-containers{
+    height: 15rem;
+    width: auto;
+    background-color: black;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    border: thick double rgba(170,122, 57,1);
+}
+
 
 /*Footer section*/
 
