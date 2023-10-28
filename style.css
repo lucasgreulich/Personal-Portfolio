@@ -50,6 +50,13 @@ li{
     display: inline-block;
     padding: 1rem;
 }
+.btn{
+    color: rgba(170,122, 57);
+    text-decoration: none;
+}
+.btn:hover{
+    color: rgb(159, 170, 57);
+}
 /* Lucas picture*/
 #lucas-section{
     display: flex;
