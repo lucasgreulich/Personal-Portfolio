@@ -1,0 +1,16 @@
+#form-box{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+#contact{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    background-color: black;
+    height: 20rem;
+    width: 30rem;
+    margin: auto;
+    border-radius: 2%;
+}
