@@ -22,7 +22,7 @@ header h1{
     line-height: 45px;
     margin: 0px;
     margin-left: 3rem;
-    margin-top: .85rem;
+    margin-top: 3rem;
     font-size: 8rem;
     border: thick double rgba(170,122, 57,1);
     padding-top: 2.5rem;
@@ -62,6 +62,7 @@ li{
     display: flex;
     justify-content: center;
     margin-bottom: 5rem;
+    border-radius: 100%;
     
 }
 
