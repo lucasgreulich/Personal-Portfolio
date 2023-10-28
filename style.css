@@ -1,7 +1,7 @@
 body{
-    background-color: rgba( 39,116, 85,1);
+    background-color: rgb(27, 48, 34);
     font-size: 16px;
-    color: rgba(170,122, 57,1);
+    color: rgb(162,167,158);
     font-family: roboto, Arial, Helvetica, sans-serif;
     font-weight: 400;
 }
@@ -24,7 +24,7 @@ header h1{
     margin-left: 3rem;
     margin-top: 3rem;
     font-size: 8rem;
-    border: thick double rgba(170,122, 57,1);
+    border: thick double rgb(162,167,158);
     padding-top: 2.5rem;
     padding-bottom: 2.5rem;
     padding-left: .5rem;
@@ -51,7 +51,7 @@ li{
     padding: 1rem;
 }
 .btn{
-    color: rgba(170,122, 57);
+    color: rgb(162,167,158);
     text-decoration: none;
 }
 .btn:hover{
@@ -78,8 +78,9 @@ li{
 #about-me{
     height: 19rem;
     width: 50%;
-    color: rgba(128, 83, 21,1);
-    background-color: rgba( 85, 49,  0,1);
+    color: rgb(162,167,158);
+    background-color: rgba(57,87,86, .25);
+    border-radius: 2%;
     margin-left: 25%;
     margin-bottom: 5rem;
     margin-top: 2rem;
@@ -99,7 +100,7 @@ li{
     width: 40%;
     font-family: rubik;
     font-weight: 400;
-    color:  rgba(128, 83, 21,1);
+    color:  rgb(162,167,158);
     padding-left: 1rem;
     
 }
