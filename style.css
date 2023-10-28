@@ -9,16 +9,13 @@ header{
     margin-top: 2rem;
     margin-bottom: 5rem;
     display: block;
-    background-image: url(samuel-ferrara-1527pjeb6jg-unsplash.jpg);
-    height: 11rem;
+    background-image:url(nightflight.JPG);
+    height: 15rem;
     width: auto;
     position: relative;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position:100% 93%;
-    z-index: -1;
-    
-    
+    background-position:10% 68%;
 }
 header h1{
     display: inline-block;
@@ -33,7 +30,7 @@ header h1{
     padding-left: .5rem;
     padding-right: .5rem;
     position: absolute;
-    z-index: 1;    
+      
 
 }
 nav{
@@ -44,7 +41,7 @@ nav{
     margin-right: 3rem;
     margin-top: 4rem ;
     font-size: 2rem;
-    z-index: 2;
+    
 }
 ul{
     display: inline-block;
@@ -52,6 +49,20 @@ ul{
 li{
     display: inline-block;
     padding: 1rem;
+}
+/* Lucas picture*/
+#lucas-section{
+    display: flex;
+    justify-content: center;
+    
+}
+#lucas-img{
+    height: 30rem;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5rem;
+    
 }
 
 /*about me section */
@@ -68,21 +79,21 @@ li{
     padding-left: 1rem;
     position: relative;
     overflow: hidden;
-    background-image: url(brandon-erlinger-ford-jL8QFwnuOcQ-unsplash.jpg);
-    background-size: auto 20rem;
+    background-image: url(pictures/lucas-plane.JPG);
+    background-size: 25rem auto;
     background-repeat: no-repeat;
     background-position: right;
    
 }
 
 #about-me p{
-    color: black;
     height: 15rem;
-    width: 50%;
+    width: 40%;
     font-family: rubik;
     font-weight: 400;
     color:  rgba(128, 83, 21,1);
     padding-left: 1rem;
+    
 }
 #about-me h1{
     padding-left: 1rem;
@@ -121,13 +132,24 @@ li{
     transition: width 0.3s, height 0.3s;
 
    }
-  
+   #dasmotos p{
+    font-size: 1.25rem;
+   }
+   #teacozy p{
+    font-size: 1.25rem;
+    padding-bottom: 2rem;
+   }
+   #message-gen p{
+    padding: 1rem 1rem 1rem 1rem;
+    font-size: 1.25rem;
+   }
+
    #dasmoto-img{
     width: 95%;
     height: auto;
    }
    #teacozy-img{
-    width: 80%;
+    width: 75%;
     height: auto;
    }
    #message-img{
@@ -187,6 +209,6 @@ i{
 footer{
     height: 5rem;
     width: auto;
-    border: thick double rgba(170, 122, 57, 1);
     margin-top: 1rem;
+    text-align: center;
 }
