@@ -5,6 +5,7 @@ body{
     font-family: roboto, Arial, Helvetica, sans-serif;
     font-weight: 400;
 }
+
 header{
     margin-top: 2rem;
     margin-bottom: 5rem;
@@ -57,6 +58,117 @@ li{
 .btn:hover{
     color: rgb(159, 170, 57);
 }
+/*media quiries section */
+
+@media screen and  (max-width: 900px) {
+    header{
+        margin-top: 2rem;
+        margin-bottom: 5rem;
+        display: block;
+        background-image:url(nightflight.JPG);
+        height: 15rem;
+        width: 90%;
+        position: relative;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position:10% 68%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    header h1{
+        display: inline-block;
+        line-height: 45px;
+        margin: 0px;
+        margin-left: 3rem;
+        margin-top: 3rem;
+        font-size: 8rem;
+        border: thick double rgb(162,167,158);
+        padding-top: 2.5rem;
+        padding-bottom: 2.5rem;
+        padding-left: .5rem;
+        padding-right: .5rem;
+        position: absolute;
+          
+    
+    }
+    nav{
+        list-style: none;
+        float: right;
+        margin-bottom: 0px;
+        margin-left: 0px;
+        margin-right: 3rem;
+        margin-top: 5rem ;
+        font-size: 1rem;
+        
+    }
+    ul{
+        display: inline-block;
+        
+    }
+    li{
+        display: inline-block;
+        padding: 1rem;
+    }
+    .btn{
+        color: rgb(162,167,158);
+        text-decoration: none;
+    }
+    .btn:hover{
+        color: rgb(159, 170, 57);
+    }
+    
+}
+@media screen and  (max-width: 750px) {
+   header{
+    height: 10rem;
+    width: 90%;
+    
+   }
+    header h1{
+    font-size: 2rem;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+   }
+    nav{
+    font-size: .8rem;
+    margin-top: 2.75rem ;
+    
+   }
+   
+    
+}
+@media screen and (max-width: 540px) {
+    header h1{
+       display: none;
+    }
+    nav{
+        font-size: auto;
+    }
+}
+@media screen and (max-width: 475px) {
+    header{
+    height: 5rem;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    }
+    nav{
+    display: flex;
+    flex-direction: column;
+    font-size: 1rem;
+    margin-top: auto;
+    
+}
+ul{
+    display: flex;
+    flex-direction: column;
+    
+}
+li{
+    padding: .5rem;
+}
+}
+
 /* Lucas picture*/
 #lucas-section{
     display: flex;
@@ -71,6 +183,11 @@ li{
     margin-bottom: 5rem;
     border-radius: 100%;
     
+}
+@media  screen and (max-width: 1000px) {
+    #lucas-section{
+        display: none;
+    }
 }
 
 /*about me section */
@@ -107,63 +224,86 @@ li{
 #about-me h1{
     padding-left: 1rem;
 }
+/*about me quirries*/
+@media  screen and  (max-width: 1200px) {
+    #about-me{
+        width: 100%;
+        height: 350px;
+        float: left;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: auto;
+        padding-right: auto;
+       background-image: none;
+       display: flex;
+       justify-content: center;
+       text-align: center;
+       align-items: center;
+       flex-direction: column;
+       flex-wrap: wrap;
+       padding: 1rem;
+    }
+    #about-me p{
+        margin-right: 10rem;
+        font-size: .75rem;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+    #about-me h1{
+        display: flex;
+        justify-content: center;
+        text-align: center;
 
+    }
+}
 /* projects section*/
 
 #projects{
-    text-align: center;
-    margin-top: 2rem;
-    margin-left: 5rem;
-    margin-right: 5rem;
-    margin-bottom: 10rem;
     display: grid;
-    grid-template-columns: auto auto auto;
-    grid-template-rows: 5rem 15rem;
-    column-gap: 1rem;
-    
+    grid-template-columns: 32% 32% 32%;
+    grid-template-rows: 2rem 20rem;
+    gap: 2rem;
+    margin-left: auto;
+    margin-right: auto;
 }
 #projects h1{
-    font-size: 2rem;
-    text-align: center;
-    grid-column-start: 2;
-    grid-column-end: 2;
-    margin-bottom: 1rem;
-   
+   grid-column-start: 2 ;
+   grid-column-end: 2;
+   text-align: center;
     
 }
 .project-containers{
-    height: 15rem;
-    width: auto;
-    background-color: black;
+    margin-top: 2rem;
     grid-row-start: 2;
     grid-row-end: 2;
+    height: auto;
+    width: auto;
+    text-align: center;
+    background-color: black;
     overflow: hidden;
-    transition: width 0.3s, height 0.3s;
-
    }
-   #dasmotos p{
-    font-size: 1.25rem;
-   }
-   #teacozy p{
-    font-size: 1.25rem;
-    padding-bottom: 2rem;
-   }
+   
    #message-gen p{
-    padding: 1rem 1rem 1rem 1rem;
-    font-size: 1.25rem;
+    margin-top: 5rem;
    }
 
    #dasmoto-img{
-    width: 95%;
-    height: auto;
+    width: auto;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
    }
    #teacozy-img{
-    width: 75%;
-    height: auto;
+    width: auto;
+    height: 300px;
    }
    #message-img{
-    width: 100%;
-    height: auto;
+    width: auto;
+    height: 200px;
     margin-top: 2rem;
    }
 
@@ -179,6 +319,69 @@ li{
     height: 150%;
     width: auto;
    }
+  /*media quirries for projects section*/
+  @media screen and  (max-width: 1200px) {
+ 
+    #projects{
+        width: 100%;
+        display: grid;
+        grid-template-columns: 32% 32% 32%;
+        grid-template-rows: 2rem 20rem;
+        gap: 2rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #projects h1{
+       grid-column-start: 2 ;
+       grid-column-end: 2;
+       text-align: center;
+        
+    }
+    .project-containers{
+        margin-top: 2rem;
+        grid-row-start: 2;
+        grid-row-end: 2;
+        height: auto;
+        width: auto;
+        text-align: center;
+        background-color: black;
+        overflow: hidden;
+       }
+       
+       #message-gen p{
+        margin-top: 5rem;
+       }
+    
+       #dasmoto-img{
+        width: auto;
+        height: 300px;
+        margin-left: auto;
+        margin-right: auto;
+       }
+       #teacozy-img{
+        width: auto;
+        height: 300px;
+       }
+       #message-img{
+        width: auto;
+        height: 200px;
+        margin-top: 2rem;
+       }
+    
+       #dasmotos:hover{
+            height: 150%;
+            width: auto;
+       }
+       #teacozy:hover{
+        height: 150%;
+        width: auto;
+       }
+       #message-gen:hover{
+        height: 150%;
+        width: auto;
+}
+  }
+
   
 
 /*skills section*/
@@ -187,6 +390,7 @@ li{
     text-align: center;
     margin-top: 5rem;
     margin-bottom: 5rem;
+    padding-top: 5rem;
     display: block;
     
 
@@ -221,3 +425,4 @@ footer{
     margin-top: 1rem;
     text-align: center;
 }
+
