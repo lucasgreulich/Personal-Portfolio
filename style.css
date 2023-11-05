@@ -62,8 +62,7 @@ li{
 
 @media screen and  (max-width: 900px) {
     header{
-        margin-top: 2rem;
-        margin-bottom: 5rem;
+        margin: 0 auto;
         display: block;
         background-image:url(nightflight.JPG);
         height: 15rem;
@@ -122,6 +121,8 @@ li{
    header{
     height: 10rem;
     width: 90%;
+    margin: 0 auto;
+    width: 90%;
     
    }
     header h1{
@@ -151,12 +152,14 @@ li{
     width: 90%;
     display: flex;
     flex-direction: column;
+    margin-bottom: 5rem;
     }
     nav{
     display: flex;
     flex-direction: column;
     font-size: 1rem;
     margin-top: auto;
+    
     
 }
 ul{
@@ -166,6 +169,12 @@ ul{
 }
 li{
     padding: .5rem;
+    
+}
+}
+@media  screen and (max-width: 335px) {
+    header{
+    background-image: none;
 }
 }
 
@@ -381,7 +390,12 @@ li{
         width: auto;
 }
   }
-
+@media screen and (max-width: 770px) {
+    #project-containers{
+        width: auto;
+        height: 5rem;
+    }
+}
   
 
 /*skills section*/
