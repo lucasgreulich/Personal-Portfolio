@@ -10,7 +10,7 @@ header{
     margin-top: 2rem;
     margin-bottom: 5rem;
     display: block;
-    background-image:url(nightflight.JPG);
+    
     height: 15rem;
     width: auto;
     position: relative;
@@ -58,6 +58,26 @@ li{
 .btn:hover{
     color: rgb(159, 170, 57);
 }
+#img-box{
+    width: 100%;
+    height: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    
+   
+}
+#img-box img{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    display: block;
+    position: relative;
+    top: -330%;
+
+    
+}
+
 /*media quiries section */
 
 @media screen and  (max-width: 900px) {
@@ -182,10 +202,14 @@ li{
 #lucas-section{
     display: flex;
     justify-content: center;
+    width: 50%;
+    height: auto;
+    overflow: hidden;
+    margin-top: 15rem;
     
 }
 #lucas-img{
-    height: 30rem;
+    height: 15rem;
     width: auto;
     display: flex;
     justify-content: center;
@@ -207,7 +231,7 @@ li{
     color: rgb(162,167,158);
     background-color: rgba(57,87,86, .25);
     border-radius: 2%;
-    margin-left: 25%;
+    left: 50%;
     margin-bottom: 5rem;
     margin-top: 2rem;
     padding-top: 1rem;
