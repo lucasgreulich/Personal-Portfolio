@@ -125,9 +125,17 @@ li{
 @media screen and (max-width: 465px) {
     header nav{
         margin: auto;
+        margin-top: 1rem;
     }
     header h1{
         margin: auto;
+        margin-left: 1rem;
+        margin-top: .5rem;
+    }
+}
+@media screen and (max-width: 336px) {
+    header nav{
+        font-size: .4rem;
     }
 }
 
@@ -242,7 +250,7 @@ li{
         }
     }
 }
-@media screen and (max-width: 380px){
+@media screen and (max-width: 426px){
     #about-me{
         font-size: .75rem;
         background-position: bottom;
