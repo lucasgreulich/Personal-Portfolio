@@ -10,7 +10,8 @@ header{
     margin-top: 2rem;
     margin-bottom: 5rem;
     display: block;
-    
+    background-color: rgba(57,87,86, .25);
+    border-radius: 1%;
     height: 15rem;
     width: auto;
     position: relative;
@@ -158,6 +159,13 @@ li{
     border-radius: 100%;
     
 }
+#tag{
+    margin-left: 2rem;
+}
+.btn2{
+    color: rgb(162,167,158);
+    text-decoration: none;
+}
 /*lucas picture quiry*/
 @media screen and (max-width: 1400px){
     #lucas-section{
@@ -180,6 +188,9 @@ li{
     #lucas-img{
         width: auto;
         height: 10rem;
+    }
+    #tag{
+        font-size: .90rem;
     }
 }
 
@@ -223,9 +234,7 @@ li{
         width: 90%;
         left: 10%;
     }
-    #about-me p{
-
-    }
+   
 }
 @media screen and (max-width: 770px) {
     #about-me{
