@@ -96,3 +96,27 @@ body, html {
 .navbar a:hover {
     background-color: #0056b3;
 }
+
+/* Media queries */
+@media (max-width: 600px) {
+    .container img, .project img {
+        width: 150px;
+    }
+
+    .container h1, .project h1 {
+        font-size: 1.5em;
+    }
+
+    .container p, .project p {
+        font-size: 1em;
+    }
+
+    .navbar a {
+        padding: 10px 20px;
+    }
+
+    .button {
+        padding: 8px 16px;
+        font-size: 14px;
+    }
+}
