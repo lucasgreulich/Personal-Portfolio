@@ -97,6 +97,7 @@ body, html {
     background-color: #0056b3;
 }
 
+
 /* Media queries */
 @media (max-width: 600px) {
     .container img, .project img {
@@ -112,7 +113,7 @@ body, html {
     }
 
     .navbar a {
-        padding: 10px 20px;
+        padding: 10px 15px;
     }
 
     .button {
